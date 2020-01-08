@@ -1,0 +1,29 @@
+#!/usr/local/bin/node
+
+let names = [
+  "Varsha",
+  "Medhini",
+  "Rohini",
+  "Bhumika",
+  "Sarvani"
+]
+
+// Shuffle the array
+names = names.sort(() => Math.random() - 0.5)
+
+// Choose a random number and convert it to the range of [0 - names list length]
+const random = Math.random();
+
+const randomNumber = (random) * (names.length)
+
+const nameIndex = parseInt(randomNumber)
+
+// Print the chosen name
+console.table(
+  {
+    'names': names.toString(),
+    'random Number': randomNumber,
+    'nameIndex': nameIndex,
+    'the chosen one': names[nameIndex]
+  }
+)
