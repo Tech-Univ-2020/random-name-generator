@@ -1,8 +1,8 @@
 {
-  "name": "random-name-generator",
+  "name": "techuniv-team",
   "version": "1.0.0",
   "description": "Generates list of names, shuffled.",
-  "main": "ooh",
+  "main": "techuniv",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -11,7 +11,7 @@
     "url": "git+https://github.com/Tech-Univ-2020/random-name-generator.git"
   },
   "bin": {
-    "ooh": "./ooh"
+    "techuniv": "./techuniv"
   },
   "author": "Saurav Sahu <sauravsahu.12@live.com>",
   "license": "ISC",
