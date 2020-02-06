@@ -18,12 +18,9 @@ const randomNumber = (random) * (names.length)
 
 const nameIndex = parseInt(randomNumber)
 
-// Print the chosen name
+// Print the shuffled order of names
 console.table(
-  {
-    'names': names.toString(),
-    'random Number': randomNumber,
-    'nameIndex': nameIndex,
-    'the chosen one': names[nameIndex]
-  }
+  names.reduce((accumulator, name, index) => {
+    return { ...accumulator, [index]: name };
+  }, {})
 )
