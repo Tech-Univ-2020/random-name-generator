@@ -1,37 +1,19 @@
-# random-name-generator
+# techuniv-team
 
 Choose a random name from the list of names available.
 
 ## How to use
 
-Use any of the following methods to run the program.
-
-- Give the path to the `ooh` file directly
+- install the package directly from the repository
 
 ```
-# Example if the project code is in
-$ pwd
-/Users/sauravsahu/Work/techuniv/random-generator
-
-# You can run the program with
-/Users/sauravsahu/Work/techuniv/random-generator/ooh
+# installing the package
+$ npm i -g https://github.com/Tech-Univ-2020/techuniv-team.git
 ```
 
-- OR add it to path 
-```
-# Example if the project code is in
-$ echo $PATH
-/Users/sauravsahu/Work/techuniv/random-generator
-
-# You can run the program with
-
-$ ooh
-
-# from any directory
-```
-
-- OR Explicitly specify the node interpreter
+- run the techuniv command
 
 ```
-$ node /Users/sauravsahu/Work/techuniv/random-generator/ooh
+# running the techuniv command
+$ techuniv
 ```
